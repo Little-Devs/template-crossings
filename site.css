@@ -163,6 +163,11 @@ summary:focus-visible {
 .site-nav a:hover { color: var(--teal); text-decoration: underline; text-underline-offset: 6px; }
 .btn-nav { padding: 0.6rem 1.1rem; font-size: 0.925rem; }
 .btn-nav:hover { color: var(--paper); }
+/* CX-CONTRAST-01: .site-nav a { color: navy } beats .btn-primary — force paper label */
+.site-nav a.btn-primary,
+.menu-panel a.btn-primary { color: var(--paper); }
+.site-nav a.btn-primary:hover,
+.menu-panel a.btn-primary:hover { color: var(--paper); background: var(--teal); }
 
 .menu { display: none; }
 .menu summary {
