@@ -1,0 +1,83 @@
+{
+  "id": "crossings",
+  "name": "Crossings",
+  "version": "1.0.0",
+  "description": "Paper/Navy migration consultancy landing. Teal pathways, stamp accent, clarity-first copy. Thesis: Clarity at the border.",
+  "category": "landing-page",
+  "subcategory": "professional-services",
+  "repository": "https://github.com/Little-Devs/template-crossings",
+  "demoUrl": "https://crossings.little.website/",
+  "previewImage": "https://crossings.little.website/preview.png",
+  "techStack": {
+    "framework": "Static HTML",
+    "version": "1",
+    "styling": "Hand CSS (design tokens)",
+    "scripting": "None (CSS scroll-driven animations)"
+  },
+  "features": [
+    "Passport-stamp corner signature",
+    "Work / family / study pathway cards",
+    "Process step reveals (CSS view timelines)",
+    "Self-hosted variable fonts",
+    "CSS-only motion (no JS required)",
+    "prefers-reduced-motion finals",
+    "mailto CTAs to hello@crossings.example",
+    "Steve Pages _headers (CSP frame-ancestors for little.website)"
+  ],
+  "aesthetic": {
+    "style": "Migration consultancy",
+    "description": "Paper/Navy migration consultancy landing. Teal pathways, stamp accent, clarity-first copy.",
+    "fonts": {
+      "display": "Source Serif 4",
+      "sans": "Source Sans 3",
+      "primary": "Source Sans 3"
+    },
+    "colors": {
+      "primary": "#0E7C86",
+      "primaryName": "Teal",
+      "background": "#F5F7FA",
+      "backgroundName": "Paper",
+      "ink": "#0B1F3A",
+      "inkName": "Navy",
+      "accent": "#C45C26",
+      "accentName": "Stamp"
+    }
+  },
+  "sections": [
+    "Sticky nav",
+    "Hero + passport imagery",
+    "Pathways (work/family/study)",
+    "Process steps",
+    "Team",
+    "Closing consult CTA",
+    "Footer"
+  ],
+  "useCases": [
+    "Migration / visa consultancy demos",
+    "Professional services landings",
+    "Buyer template catalog (little.website)"
+  ],
+  "customization": {
+    "difficulty": "easy",
+    "colorScheme": "site.css :root tokens",
+    "typography": "Source Serif 4 + Source Sans 3",
+    "layout": "CSS Grid + Flexbox"
+  },
+  "performance": {
+    "framework": "Static HTML",
+    "cssOnly": "Yes \u2014 CSS-only motion, content visible without JS",
+    "lighthouse": "target 90+"
+  },
+  "license": "MIT",
+  "author": "Little-Devs",
+  "createdAt": "2026-09-14",
+  "lastUpdated": "2026-09-14",
+  "tags": [
+    "landing-page",
+    "migration",
+    "visa",
+    "consultancy",
+    "static-html",
+    "light"
+  ]
+}
